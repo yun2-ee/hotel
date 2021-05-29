@@ -1,0 +1,36 @@
+#content{
+	margin:100px auto;
+	width:1200px;
+	display:block;
+	overflow:auto; 
+}
+.all{
+	margin : 0 auto 0 auto;
+}
+table{
+	margin : 0 auto 0 auto;
+}
+
+form{
+	padding:100px 0px 100px 0px;
+}
+
+.submit{
+	border:1px solid gray;
+	background-color:white;
+	padding:10px;
+	text-align:center;	
+	
+}
+
+#title{
+	width:1000px;
+	height:30px;
+	margin:0px 0px 10px 0px;
+}
+
+textarea{
+	resize: none;
+	width:1000px;
+}
+

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+h2{
+	color:#4B87DE;
+	text-align:center;
+
+}
+textarea[name=content]{
+	/*줄 늘리기 없애기*/
+	resize: none;
+	/*가로 길이 조절*/ 
+	width:700px;
+}
+
+form>button{
+	/*버튼 테두리*/
+	border:1px solid gray;
+	/*버튼 배경 색*/
+	background-color: white;
+	/*버튼 크기*/
+	padding:12px 12px 12px 12px;
+	/*버튼끼리 간격*/
+	margin:5px 5px 5px 2px;
+}
+
+input[name=title]{
+	width:500px;
+	height:30px;
+}
+
+form{
+	padding:30px 0px 100px 0px;
+	width:1200px;
+	margin:0 auto 0 auto
+}
+form>input{
+	text-align:center;
+}
+
+.submit{
+	margin:5px 5px 5px 40px;
+}

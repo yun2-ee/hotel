@@ -1,0 +1,278 @@
+/*----------------------------frame-----------------------*/
+.frame{
+	background-color:#B2D0EB;
+	
+}
+* {
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+}
+html {
+height: 100%;
+}
+body {
+margin: 0;
+height: 100%;
+}
+.wrap {
+min-height: 100%;
+position: relative;
+padding-bottom:250px; /* footer height */
+}
+
+
+/*----------------------------header-----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Righteous&display=swap');
+#header{
+	
+    height:180px;
+    position:relative;
+    display:flex;
+  
+      
+}
+#head_logo{
+	display:inline-block;
+	width:300px;
+	margin:auto;
+
+
+}
+#head_logo > a{
+	text-decoration:none;
+}
+
+#logo {
+	width:100px;
+	padding:10px 10px;
+
+}
+#logo_text{
+	position:absolute;
+	padding:30px 0px;
+	font-size:45px;
+	color:#4B87DE;
+	font-family: 'Righteous', cursive;
+}
+
+/*----------------------------menu-----------------------*/
+#menu_body {
+  margin: 0;
+  padding: 0;
+ /* display: flex;*/
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#main-menu > li {
+  float: left;
+  position: relative;
+}
+
+#main-menu > li > a {
+  font-size:1.1rem;
+  color: #6B6861;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  display: block;
+  padding: 14px 30px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+
+#sub-menu {
+  position: absolute;
+  background: #D4E4F2;
+  opacity: 0;
+  visibility: hidden;
+  width:fit-content;
+  transition: all 0.15s ease-in;
+  z-index:1;
+  border-radius:0 0 5px 5px;
+}
+
+#sub-menu > li {
+  width:150px;
+  padding: 14px 18px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+#sub-menu > li >  a {
+  font-size: 0.9rem;
+  width:30px;
+  color:#6B6861;
+  text-align: center;
+  text-decoration: none;
+}
+#main-menu > li:hover {
+
+  border-top: 1px solid rgba(255,255,255,0.85);
+  border-right: 1px solid rgba(255,255,255,0.85);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+}
+#main-menu > li:hover #sub-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#sub-menu > li >  a:hover {
+ text-decoration: underline;
+
+}
+
+.login{
+	 margin:0px 30px;
+	 position:absolute;
+	 right: 10px;
+	 bottom : 10px;
+}
+
+.mem_btns{
+  background:#B2D0EB;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:25px;
+  font-size:1em;
+  padding:2.5 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  border-radius:5px;
+  border:1px solid;
+  height: 35px;
+}
+.mem_btns > a {
+	text-decoration:none;
+	margin:5px 5px;
+	color: #EBEAE8;
+}
+.mem_btns:hover{
+  background:#fff;
+ 
+}
+.mem_btns:hover > a{
+  background:#fff;
+  color:#6B6861;
+}
+
+.mem_btns:before, .mem_btns:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #9ED3FF;
+  transition:400ms ease all;
+}
+.mem_btns:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.mem_btns:hover:before, .mem_btns:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+/*---------------------------topBtn-----------------------*/
+#top{
+    position:fixed;
+	width:40px;
+    z-index:999;
+    right:20px;
+    bottom:30px;
+
+}
+#topBtn{
+	width:40px;
+}
+/*---------------------------footer-----------------------*/	
+footer{
+    height:250px;
+    width:100%;
+    position:absolute;
+   bottom:0;
+   left: 0;
+   right: 0;
+   	background-color:#B2D0EB;
+}
+#footer_logo{
+	position:absolute;
+	float:left;
+	text-align:center;
+	margin:20px auto;
+	top:5px;
+	left:36%;
+
+}
+#footer_right{
+	position:absolute;
+	width:300px;
+	top:50px;
+    left:46%;
+
+}
+#footer_logo > a{
+	text-decoration:none;
+}
+
+#footer_logo_text{
+	padding:30px 0px;
+	font-size:50px;
+	color:#4B87DE;
+	font-family: 'Righteous', cursive;
+}	
+				
+#footer_app {
+	position:absolute;
+	bottom:10px;
+	left:37%;
+}	
+#footer_app ul li{
+	list-style-type:none;
+	float:left;
+	margin-top:5px;
+	margin-left:10px;
+}	
+.app{
+	width:35px;
+}					
+.footer_icon{
+	width:30px;
+	padding:6px;
+}
+#footer_inform{
+	font-size:15px;
+}
+#footer_inform td{
+	padding-bottom:3px;
+	padding-left:5px;
+}
+.loginArlm{font-size: 1.0rem;
+    color: #6B6861; 
+}
+
+

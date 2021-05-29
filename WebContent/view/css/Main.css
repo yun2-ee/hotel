@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+/*---------------------------전체-----------------------*/
+ *{	
+ 	box-sizing:border-box;
+
+} 
+ body{
+ 	margin:0;
+ 	padding:0;
+ }
+ 
+ .mainView{	
+ 	margin: 0 auto;
+	width:100%;
+	position:relative;
+	color:#2E2E2E;
+	font-family: 'Jua', sans-serif; 
+}
+
+/*-----------mainImg----------*/ 
+
+.mainImg{
+	position:relative; 
+	opacity:0.75
+}
+.mainImgText{ 
+	position:absolute;
+	width: 1150px;
+	margin-left: 350px;
+	height:250px;
+	top:80px;
+	left:55%;
+	font-family: 'Jua', sans-serif;
+
+}
+
+.mainContent{
+	color :#ffbc2f;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+	-webkit-animation: fadein 3s;
+    -o-animation: fadein 3s;
+    font-size:43px;
+}
+
+.mainContent2{
+	color :#fceec0;
+    animation: fadein 6s;
+   	-moz-animation: fadein 6s;
+  	-webkit-animation: fadein 6s;
+    -o-animation: fadein 6s;
+    font-size:53px;
+						}
+/*-----------firstMainText----------*/ 
+.firstMainText{
+	text-align:center;
+	margin:80px auto;
+	width:1150px;
+	height:250px;
+	font-size:23px;
+	font-weight:580;
+
+}
+h1{
+	margin:0;
+}     
+#top_title{
+	font-size:30px;
+	margin:
+}
+/*----------room소개 ----------*/ 
+.roomName{	
+	width:350px;
+	text-align:center;
+	margin:10px 25px;
+	display:inline-block;
+	font-size:24px;
+	font-weight:550;
+}
+.roomlink{
+	margin:0 auto 5px 0;
+	text-align:center;
+	font-size:32px;
+	font-weight:650;
+}									
+.middleImg {
+	width:1200px;	
+	margin:0px auto;
+	padding-top :50px;
+}					 									 
+.roomImgContainer{	
+	width:350px;
+	heigth:350px;
+	display:inline-block;
+	margin:0 23px;
+}									
+.roomFirst{
+	background-color:#f1f1f1;
+	width:100%;
+	height:600px;
+	text-align:center;
+	position:relative;
+}
+									
+a {
+	text-decoration:none;
+	color:#2E2E2E;
+}				
+
+
+img{display:inline-block;
+		align:left;
+		}
+
+ 
+/*---------fa 시설&교육 etc ----------*/ 					 
+.fa{				
+	width:300px;
+	text-align:left;
+	margin:10px 0;
+	padding:0 15px;
+	display:inline-block;
+	font-size:20px;
+	font-weight:550;
+}										
+.faImgContainer {width:1200px;	
+					margin:80px auto;
+					}	
+					
+.falink{margin:0 auto 30px 0;
+					text-align:center;
+					font-size:23px;
+					font-weight:650;
+}
+.faImg { margin:7px;
+}	
+.eng{
+	color:#EECEA4;
+}
+
+ 
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein {
+
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

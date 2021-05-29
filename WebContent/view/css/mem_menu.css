@@ -1,0 +1,55 @@
+
+#mem_menu{
+  position:relative;
+  width:200px;
+  height:250px;
+  left:200px;
+  border-top:1px solid #4B87DE; 
+  border-bottom:1px solid #4B87DE; 
+   float:left;
+}
+#mypage{
+	display:flex;
+	width:200px;
+	height:45px;
+	border-bottom:1px solid #4B87DE;
+	overflow:auto;
+	background-color:#B2D0EB;
+
+}
+#cover1{
+	display:inline-block;
+	width:150px;
+	margin:7px auto;
+}
+#menu1 {
+	width:25px;
+	padding:4px;
+
+}
+
+#me_text{
+	position:absolute;
+	font-size:24px;
+	margin-left:3px;
+}
+
+/*************내용**************/
+.menu2{
+	width:15px;
+}
+#menu_ul{
+  list-style: none;
+  text-align: right;
+  margin-top:40px;
+} 
+a {
+	text-decoration:none;
+	color:black;
+} 
+.me{
+  padding:12px;
+}
+
+
+

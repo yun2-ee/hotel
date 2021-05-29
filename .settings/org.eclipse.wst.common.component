@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="[01]SeaDog 210317 최종 코드">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="[01]SeaDog_210317_최종_코드"/>
+        <property name="java-output-path" value="/[01]SeaDog 210317 최종 코드/build/classes"/>
+    </wb-module>
+</project-modules>

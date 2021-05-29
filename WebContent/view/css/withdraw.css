@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#content{
+	text-align:center;
+	margin:100px auto 100px auto;
+}
+
+withdraw{
+	text-align:center;
+	font-size:32px;
+	margin:100px 0 40px 0;
+	color:#4B87DE;
+}
+textarea{
+	text-align:left;	
+	resize: none;
+	width:1000px;
+}
+
+table{
+	margin:0 auto 0 auto
+}
+

@@ -1,0 +1,37 @@
+@charset "EUC-KR";
+<style>
+
+#content{
+	margin:100px auto;
+	width:1200px;
+	display:block;
+	overflow:auto; 
+}
+#container { 
+	width: 70%; 
+	margin: 0 auto; 
+	/* 가로로 중앙에 배치 */
+	}
+#write { text-align: right; }
+.table { width: 100%; background-color:#E6E6E6;}
+.table > thead { background-color: #b3c6ff; } 
+.table > thead > tr > th { text-align: center; } 
+.table-hover > tbody > tr:hover { background-color: #e6ecff; } 
+.table > tbody > tr > td { text-align: center; } 
+.table > tbody > tr > #title { text-align: left; } 
+div > #paging { text-align: center; } 
+.hit { animation-name: blink; animation-duration: 1.5s; animation-timing-function: ease; animation-iteration-count: infinite;} 
+ @keyframes blink { from {color: white;} 30% {color: yellow;} to {color: red; font-weight: bold;}}
+#free_title { 
+	text-align: center; 
+	color:skyblue; 
+	font-size:50px; 
+	font-weight:900;
+	}
+.freeReadButton {
+   	border:1px solid gray;
+	background-color: white;
+	padding:12px 12px 12px 12px;
+	margin:5px 5px 5px 2px;
+}
+</style>

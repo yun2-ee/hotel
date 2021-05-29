@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*---------------------------전체 ----------------------*/
+#content{
+	margin:100px auto;
+	width:1200px;
+	display:block;
+	overflow:auto; 
+	padding:0 auto 0 auto;
+}
+a{ /*a태그 색상 및 밑줄 없애기*/
+	text-decoration:none;
+	color:black;
+}
+
+/*---------------------------제목 ----------------------*/
+h1{
+	text-align:center;
+	color:#4B87DE;
+}
+/*---------------------------목록 ----------------------*/
+form[name=gallList]{
+	border-top:3px solid #B2D0EB;
+}
+
+/*--------------------------작성버튼----------------------*/
+#writeGall{
+	background-color:#B2D0EB;
+	border-radius:5px;
+	height:30px;
+	border:1px solid white;
+    color:#ecf0f4;
+}
+.serach{
+	border:1px solid gray;
+	background-color: white;
+	padding:5px 5px 7px 5px;
+	margin:5px 5px 5px 2px;
+}
+
+.gSearchType{
+	padding:7px 5px 7px 5px;
+}
+
+.gSearchText{
+	height:30px;
+	padding:5px;
+	text-align:left;
+	margin:5px 0px 5px 2px;
+}
+
+.write{
+	margin:100px 0 10px 0; 
+}  
+.selectPno{color:green;}
+
+.list{
+	margin:30px 0px 0px 0px;
+	width:1200px;
+}

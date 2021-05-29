@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>board</display-name>
+	
+
+
+	 <!-- P542 08~23라인 ConfigFile 초기화 파라미터를 설정파일경로로 셋팅 -->
+  	 	<filter>
+		<filter-name>LoginCheckFilter</filter-name>
+		<filter-class>filter.LoginCheckFilter</filter-class> 
+ 	</filter>
+	<filter-mapping>
+		<filter-name>LoginCheckFilter</filter-name>
+		<url-pattern>/changePwd.do</url-pattern>
+		<url-pattern>/myReservationList.do</url-pattern>
+		<url-pattern>/reserve.do</url-pattern>
+		<url-pattern>/board/gallWrite.do</url-pattern>
+		<url-pattern>/free/write.do</url-pattern>
+		<url-pattern>/writeReview.do</url-pattern>
+		<url-pattern>/qnaboard/newqna.do</url-pattern>
+		<url-pattern>/member/editprofile.do</url-pattern>
+		<url-pattern>/member/withdraw.do</url-pattern>
+	</filter-mapping>	  
+ 	  <servlet>
+ 	  		<servlet-name>ControllerUsingURI</servlet-name>
+ 	 	 	<servlet-class>mvc.controller.ControllerUsingURI</servlet-class>
+ 	  	
+ 	  	<init-param>
+ 	  			<param-name>configFile</param-name>
+ 	  			<param-value>/WEB-INF/commandHandlerURI.properties</param-value>
+ 	  	</init-param>
+ 	  	<load-on-startup>1</load-on-startup>
+ 	  </servlet>
+  	  <!-- p542 20라인 23라인
+  	  			web browser의 url이 /dfjl/sdj.do로 끝남.
+  	   -->
+  	  <servlet-mapping>
+  	  	<servlet-name>ControllerUsingURI</servlet-name>
+  	  	<url-pattern>*.do</url-pattern>
+  	  </servlet-mapping>  	  
+  	  
+	<!-- poolConfig 컨텍스트 초기화 파라미터 p585 -->
+	<listener>
+		<listener-class>jdbc.DBCPInitListener</listener-class>
+	</listener>
+	
+		
+	<context-param>
+		<param-name>poolConfig</param-name>
+		<param-value>
+			jdbcdriver=oracle.jdbc.OracleDriver
+			jdbcUrl=jdbc:oracle:thin:@localhost:1521:xe
+			dbUser=sea
+			dbPass=1234
+			validationQuery=select 1 from dual
+			minIdle=3
+			maxTotal=30
+			poolName=seadog
+		</param-value>
+	</context-param>
+	<!-- 
+	validationQuery - 유효성 검사 쿼리 설정
+		JDBC 커넥션의 유효성은 validationQuery 옵션에 설정된 쿼리를 실행해 확인할 수 있다
+		DBMS에 따라 다음과 같이 쿼리를 설정하기를 권장한다. 
+		실제 테이블에 있는 데이터를 조회하는 쿼리를 validationQuery 옵션에 설정했다가 운영 서버에서 많은 데이터를 조회해 장애로 이어진 사례도 있다.
+
+		Oracle: select 1 from dual
+		Microsoft SQL Server: select 1
+		MySQL: select 1
+		CUBRID: select 1 from db_root
+	
+	initialSize	-BasicDataSource 클래스 생성 후 최초로 getConnection() 메서드를 호출할 때 커넥션 풀에 채워 넣을 커넥션 개수
+	maxActive		-동시에 사용할 수 있는 최대 커넥션 개수(기본값: 8)
+	maxIdle			-커넥션 풀에 반납할 때 최대로 유지될 수 있는 커넥션 개수(기본값: 8)
+	minIdle			-최소한으로 유지할 커넥션 개수(기본값: 0)
+	 -->
+	
+</web-app>

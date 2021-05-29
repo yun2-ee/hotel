@@ -1,0 +1,125 @@
+/*---------------------------ì „ì²´ ----------------------*/
+#content{
+	margin:100px auto;
+	width:1200px;
+	display:block;
+	overflow:auto; 
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+/*---------------------------ì œëª© ----------------------*/
+h1{
+	text-align:center;
+	color:#4B87DE;
+}
+/*---------------------------ê²€ìƒ‰ : (ë…„ë„ì™€ ì¼) ----------------------*/
+#newgrade{
+	padding:5px 3px;
+} 
+    
+#newgrade{
+	font-size:12px;
+}
+/*---------------------------ëª©ë¡----------------------*/
+.table2{
+	border:1px solid #B2D0EB;
+	border-collapse:collapse;
+	border-right: none;
+	border-left: none;
+	text-align:center;
+	width:1200px;
+}
+
+
+/*---------------------------paging ì²˜ë¦¬---------------------*/
+.paging{
+	margin:0 auto;
+}
+#searchtype{
+	padding:5px 5px;
+}
+#searchtext{
+	height:30px;
+	padding:4px;
+	text-align:left;
+	margin:5px 0px 5px 2px;
+}
+#serach{ 
+	border:1px solid gray;
+	background-color: white;
+	padding:5px 5px 7px 5px;
+	margin:5px 5px 5px 2px;
+}
+
+th{
+	border:1px solid #D8D8D8;
+	border-top:3px solid #B2D0EB;
+	height:50px;
+	background-color:#E6E6E6;
+}
+
+.readcount{
+	border-right:none;
+}
+
+.tr> td{
+	border:1px solid #D8D8D8;
+	height:35px;
+}
+
+.rownum{
+	border-left:none;
+}
+.tr> .rownum{
+	border-left:none;
+}
+.tr> .readcount{
+	border-right:none;
+}
+.tr> .title{
+	text-align:left;
+	padding: 10px 0px 10px 20px;
+}
+
+.manage{
+	height:30px;
+	background-color:#B2D0EB;
+	border-radius:5px;
+	border:1px solid white;
+    color:#ecf0f4;
+}
+.manage:focus{
+	border:1px solid white;
+}
+/*-----------------------------í›„ê¸°ìž‘ì„±ê³¼ ìˆ˜ì •ë²„íŠ¼ ----------------------------*/
+.operate_btn{
+	background-color:#B2D0EB;
+	border-radius:5px; 
+	border:1px solid white;
+    color:#ecf0f4;
+}
+/*-----------íŽ« ì •ë³´ ì²˜ë¦¬------------*/
+.petList{width:1200px;
+			text-align: center;
+			margin:100px 0 0 0;} 
+.PetIdCard {border:1px solid #D8D8D8;
+							text-align:center;
+							width:350px; 
+							display:inline-block;
+							border-radius:20px;
+							margin:50px 20px;
+							}
+.PetIdCard td{text-align:center;
+						width:200px;
+						}
+.PetIdCard hr{width:120px;
+						}
+.petListTd{text-align:center;margin:0;}
+	
+} 
+
+.dogIcon {padding:20px;}
+.memoContent{padding:0 0 20px 0;}
+.petOner{color:#4B87DE;}

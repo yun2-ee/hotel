@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+ *{	box-sizing:border-box;
+        }
+         
+.footerBackground{background-color:#1835D0;
+			margin:200px 0 0 0;
+			color:white;
+			width:100%; 
+			font-size:12px;
+			height:200px;
+			position:relative;
+			}        
+.footer { width:800px;
+			margin: 0px auto;
+			padding: 30px 0px;
+			}
+#footer_table{margin :0px;
+						border:0px;}
+#footer_table td{ border:0px;
+}			

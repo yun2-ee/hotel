@@ -1,0 +1,81 @@
+@charset "UTF-8";
+ *{ box-sizing:border-box;
+        } 
+             
+.changeFrm{	border:1px solid #AAD4DA;
+					border-radius:10px;
+					margin: 200px auto 200px auto;
+					background-color:#B2D0EB;
+					width:450px;
+					}
+					
+.logoImg{ display:block;
+				text-align:center;
+				padding:20px;
+				color:white;
+				}
+ 
+.logTextFrm::after{	content:' ';
+								display:block;
+								clear:both;
+							}  
+.curPwdCheck, .newPwdCheck {text-align:center; 
+}							 
+.logo {	display:inline-block;
+			position:relative;
+			top:10px;
+			right:30px; 
+		}
+.checkPw{color:red;
+				margin:0 0 10px 0;
+				}	
+.loginLogo{  display:inline-block;
+					font-size:40px;
+					margin: 0; 
+					position:relative;
+					right:15px; 
+					}
+					
+					
+.logTextFrm {width:100%;
+					text-align:left;
+					color:white;
+					padding:12px; 
+					}
+  					  					
+.loginText{	border:1px solid gray;
+					font-size:17px; 
+					border-radius:10px;
+					width:200px;
+					height:30px;
+					padding:10px;
+					margin: 5px 30px 20px 0;
+				}
+
+.loginSubmit { 	border:1px ;
+						border-radius:10px;	
+						background-color:#83C9E7;
+						font-size:15px;
+						margin:0 20px;
+						color:white;
+						width:120px;
+						height:40px;
+						} 
+
+.TextAlign	{	text-align:left;
+					font-size:20px;
+					height:55px;
+					font-weight:700;
+					padding:5px 0px 0px 25px;
+					display:inline-block;
+					} 
+
+.submitButton{text-align:center;
+						margin:0 0 20px 0 ;
+						}	
+										
+.text{	float:right;
+			text-align:right;
+		}					
+					
+					

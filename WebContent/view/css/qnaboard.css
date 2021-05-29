@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+	box-sizing:border-box;
+}
+
+#all{
+	padding: 100px 0 100px 0;
+	margin:0 auto 0 auto
+} 
+h1{
+	text-align:center;
+	color:#4B87DE;
+}
+#seachall{
+	margin:0 auto 0 auto;
+	text-align:right;
+	 width:1200px
+}
+#table2{ 
+	margin:0 auto 0 auto;
+	border:1px solid black;  
+	border-collapse:collapse;
+	border-right: none;
+	border-left: none;
+}
+#title, #writer, #wrday, #check{
+	border:1px solid #D8D8D8;
+}
+#main{
+	background-color:#E6E6E6;
+	font-size:15px;
+	font-weight:1000;
+	height:35px;
+	text-align:center;
+	border:1px solid #D8D8D8;
+	border-top:3px solid #B2D0EB;
+}
+#no, #wrday, #check, #writer, #readcount{
+	text-align:center;
+	height:50px;
+}
+#title{
+	text-align:left;
+	padding: 10px 0px 10px 20px;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+
+#qnaseach{
+	height:40px;
+	text-align:left;
+	padding:10px;
+	margin:5px 2px 5px 5px;
+}
+#seachbt{
+	border:1px solid gray;
+	background-color: white;
+	padding:10px;
+	margin:10px 2px 10px 2px;
+}
+#myqna{
+	border:1px solid gray;
+	background-color: white;
+	padding:10px;
+	margin:10px 2px 10px 2px;
+}
+#newqna{
+	border:1px solid gray;
+	background-color: white;
+	padding:10px;
+	margin:10px 2px 10px 2px;
+}
+#no, #readcount{
+	border-left: none;
+	border-right: none;
+	border-top:1px solid #D8D8D8;
+	border-bottom:1px solid #D8D8D8;
+}
+#main> #title{
+	text-align:center;
+}
+
+
+	

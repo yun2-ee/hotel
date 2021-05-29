@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+#readQna_table{
+	border:1px solid black;
+	border-collapse:collapse;
+	margin:100px auto 0px auto;
+	border-left:none;
+	border-right:none;
+}
+#readQna_table td{
+	border:1px solid black;
+	border-left:none;
+	border-right:none;
+}
+#all{
+	margin:0 auto 100px auto;
+	width:1200px
+}
+
+
+/* A태그 밑줄, 글자색 변경 */
+a{
+	text-decoration:none;
+	color:black;
+}
+
+
+.button{
+	border:1px solid gray;
+	background-color: white;
+	padding:10px;
+	margin:5px;
+	text-align:left;
+}
+
+#title{
+	height:30px;
+	text-align:left;
+	padding:10px 10px 10px 10px;
+	font-weight:1000;
+	background-color:#EFF5FB;
+}
+#writer{
+	height:30px;
+	text-align:left;
+	padding: 0 0 0 10px;
+	
+}
+
+#wrday{
+	height:30px;
+	text-align:center
+}
+
+#readcount{
+	height:30px;
+	text-align:right;
+	padding: 0 10px 0 0;
+}
+
+#readQna_content{
+	height:300px;
+}
+
+#resSuccess{
+	border:1px solid gray;
+	background-color: white;
+}
+#res{
+	resize: none;
+	width:1200px;
+	border:none;
+	
+}
+span{
+	font-weight:1000;
+}

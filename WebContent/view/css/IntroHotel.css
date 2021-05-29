@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/*******************전체*************************/
+ *{	
+ 	box-sizing:border-box;
+ }
+.contentguide{	
+	color:#2E2E2E;
+	width:1000px; 
+	margin: 0 auto;
+    animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-webkit-animation: fadein 2s;
+    -o-animation: fadein 2s;
+}     
+.contentguide li{	font-size:16px;
+							font-weight:550;
+}
+/******************제목***********************/				   
+.reviewcenter{
+	text-align:center;
+	font-size:32px;
+	margin:100px 0 40px 0;
+	color:#4B87DE;
+	
+}         
+/******************경계선***********************/			
+hr{
+	background-color:#EECEA4;
+	border:2px solid #EECEA4;
+}
+/******************내용관련***********************/			
+.come {
+	width:520px;
+	height:42px;
+}
+.address {width:520px;}
+.compass{
+	display:block;
+}
+.subway{ 
+	display:block;
+} 
+#map_ma {	
+	top:-100px;
+	left:560px;
+}	 
+h4 {
+	margin:40px 0px 10px 50px ;
+}	
+
+/******************아이콘 관련***********************/		
+.time {			
+	background-image : url('../imgs/hotel_time.png');
+	background-size: 40px 40px;
+	background-position:0.2%; 
+	background-repeat:no-repeat;
+}
+.call {			
+	background-image : url('../imgs/hotel_call.png');
+	background-size: 40px 40px;
+	background-position:0.2%; 
+	background-repeat:no-repeat;
+}
+		
+.notice {
+	background-image : url('../imgs/notice.png');
+	background-size: 40px 40px;
+	background-position:0.2%; 
+	background-repeat:no-repeat;
+}
+.place {			
+	background-image : url('../imgs/place.png');
+	background-size: 40px 40px;
+	background-position:0.2%; 
+  	background-repeat:no-repeat;
+}
+
+
+
+   @keyframes fadein {
+       from {
+           opacity: 0;
+       }
+
+       to {
+           opacity: 1;
+       }
+   }
+
+   @-moz-keyframes fadein {
+
+       /* Firefox */
+       from {
+           opacity: 0;
+       }
+       to {
+           opacity: 1;
+       }
+   }
+   @-webkit-keyframes fadein {
+
+       /* Safari and Chrome */
+       from {
+           opacity: 0;
+       }
+       to {
+           opacity: 1;
+       }
+   }
+   @-o-keyframes fadein {
+
+       /* Opera */
+       from {
+           opacity: 0;
+       }
+       to {
+           opacity: 1;
+       }
+ }

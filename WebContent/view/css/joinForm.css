@@ -1,0 +1,126 @@
+@charset "UTF-8";
+ *{ box-sizing:border-box;
+        }
+
+.logo {
+			display:inline-block;
+			position:relative;
+			top:10px;
+			right:30px; 
+} 
+.join{   display:inline-block;
+					font-size:40px;
+					margin: 0; 
+					position:relative;
+					right:15px; 
+					}       
+					
+.regPage { color:#2E2E2E;
+						width:1000px; 
+						margin: 100px auto 0px auto;
+			       		 animation: fadein 2s;
+ 					     -moz-animation: fadein 2s;
+   					  	-webkit-animation: fadein 2s;
+				        -o-animation: fadein 2s;
+				        font-size:18px;
+}             
+.petButton{	width:500px;
+					margin: 20px auto 20px auto;
+					text-align:center; 
+}   
+.checkPw{color:red;  
+				display:inline-block;
+				}
+.pageTitle{text-align:center;}  
+.submitButton{width:500px;
+					margin: 20px auto 150px auto;
+					text-align:center;
+					}
+.address {width:550px;}
+input[type="button"]{ margin: 0px 20px;	}
+#join_table{	width:770px;
+			padding:0 5px;	
+			display:block;
+			margin:0 auto;
+			 border-collapse: separate;
+  			border-spacing: 40px 45px;
+  			
+			}									     
+.petCard{	width:420px;
+			padding:0 5px;	
+			display:block;
+			margin:0 auto;
+			 border-collapse: separate;
+  			border-spacing: 40px 45px;
+			}
+th{ text-align:left; 
+	}
+td{
+		}	
+tr{ padding:0;
+	}		
+input {
+	border-color:#f1f1f1;	
+	  width:150px;
+	  height:28px;
+	  font-size:16px;
+}
+
+select{width:150px;
+	  height:28px;
+	  font-size:16px;
+}
+.operate_btn{
+	background-color:#B2D0EB;
+	border-radius:5px;
+	border:1px solid white;
+    color:#ecf0f4;
+}  
+.readOnly{background-color:#f1f1f1;
+				}	
+input[type="checkbox"]{ width:25px;
+									 height:25px;
+										}
+	 
+	
+    @keyframes fadein {
+        from {
+            opacity: 0;
+        }
+ 
+        to {
+            opacity: 1;
+        }
+    }
+
+    @-moz-keyframes fadein {
+ 
+        /* Firefox */
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    @-webkit-keyframes fadein {
+ 
+        /* Safari and Chrome */
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    @-o-keyframes fadein {
+ 
+        /* Opera */
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }					
+					

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+ *{
+            box-sizing:border-box;
+        }
+.main{text-align:center;}  
+         
+.logFrm {	border:1px solid #AAD4DA;
+				border-radius:10px;
+				margin: 200px auto 300px auto;
+				background-color:#B2D0EB;
+				width:450px;
+				display:inline-block;
+				}  
+				
+.checkFrm{	display: inline-block;
+				    position: relative;
+				    bottom: 100px; 
+				    right: 180px
+					}		
+							
+.logoImg{ display:block;
+				text-align:center;
+				padding:20px;
+				color:white;
+}
+
+.checkPwDiv{text-align:center;
+						}
+.checkIdDiv{text-align:center;
+					}
+  
+.checkID{ color:red;
+				margin:0;
+				} 
+.checkPw{color:red;
+				margin:0 0 10px 0;
+				}				
+.logTextFrm::after{	content:' ';
+								display:block;
+								clear:both;
+							}  
+							
+.logo {
+			display:inline-block;
+			position:relative;
+			top:10px;
+			right:30px; 
+}   
+.loginLogo{   display:inline-block;
+					font-size:40px;
+					margin: 0; 
+					position:relative;
+					right:15px; 
+					}
+					
+.logTextFrm {width:100%;
+					text-align:left;
+					color:white;
+					padding:12px; 
+					}
+				
+#password {background-image : url('../imgs/pwd.png');
+					background-size: 30px 30px;
+					background-position:3%; 
+  					background-repeat:no-repeat;}				
+  					
+#id {			background-image : url('../imgs/id.png');
+					background-size: 30px 30px;
+					background-position:3%; 
+  					background-repeat:no-repeat;}
+  					  					
+.loginText{	border:1px solid gray;
+					font-size:17px; 
+					border-radius:10px;
+					width:250px;
+					height:50px;
+					padding:10px;
+					margin: 5px 70px 20px 0;
+				}
+				
+.loginSubmit { 	border:1px ;
+						border-radius:10px;	
+						background-color:#83C9E7;
+						font-size:25px;
+						color:white;
+						width:300px;
+						height:40px;
+						margin:0 0 30px 0;
+						} 
+						
+.TextAlign	{	text-align:left;
+					font-size:20px;
+					height:75px;
+					font-weight:700;
+					padding:14px 0px 0px 25px;
+					display:inline-block;
+					}  
+					 
+.submitButton{text-align:center;
+						margin:0 0 30px 0;
+						}	
+										
+.text{
+		float:right;
+		text-align:right;
+		}					
+					
+					

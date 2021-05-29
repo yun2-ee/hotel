@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#gallModify_table{
+	border-collapse:collapse;
+	text-align:center;
+	margin:100px auto 100px auto
+}
+#title{
+	width:1000px;
+	height:30px;
+}
+
+.gallReadButton {
+   	border:1px solid gray;
+	background-color: white;
+	padding:12px 12px 12px 12px;
+	margin:5px 5px 5px 2px;
+}
+textarea{
+	resize: none;
+	width:1000px;
+}
+
+#submit, #gallList{
+	border:1px solid gray;
+	background-color: white;
+	padding:12px 12px 12px 12px;
+	margin:5px 5px 5px 2px;
+}
+#img{
+	text-align:left;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#gallRead_table{
+	border:1px solid black;
+	border-collapse:collapse;
+	border-right:none;
+	border-left:none;
+	border-bottom:none;
+	margin:100px auto 100px auto;
+}
+
+tr{
+	border:1px solid black;
+	border-right:none;
+	border-left:none;
+}
+  
+a{
+	text-decoration:none;
+	color:black;
+} 
+.gallReadButton {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 12px 12px 12px 12px;
+}
+.name, .no, .readcount, .wrday, .moday, .Img{
+	text-align:right;
+	border-right:none;
+}
+
+.title{
+	text-align:left;
+	padding:10px 10px 10px 30px;
+	background-color:#EFF5FB;
+}
+ 
+.bt{
+	text-align:left;
+	border-right:none;
+	border-left:none;	
+	border-bottom:none;
+	height:70px;
+}
+
+

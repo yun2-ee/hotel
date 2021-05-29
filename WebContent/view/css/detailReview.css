@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+#detailReview_table{
+	margin:50px 0 0 0;
+	border:1px solid black;
+	border-collapse:collapse;
+	border-right:none;
+	border-left:none;
+	margin: 100px auto 0 auto;
+}
+
+
+.tr{
+	text-align:center;
+}
+
+button[name=btns]{
+	/*버튼 테두리*/
+	border:1px solid gray;
+	/*버튼 배경 색*/
+	background-color: white;
+	/*버튼 크기*/
+	padding:12px 12px 12px 12px;
+	/*버튼끼리 간격*/
+	margin:5px 5px 5px 2px;
+}
+
+
+#title{
+	text-align:left;
+	width:1200px;
+	font-weight:1000;
+	padding:10px 10px 10px 130x;
+	background-color:#EFF5FB;
+}
+
+#detailReview_table td{
+	border:1px solid black;
+	border-collapse:collapse;;
+	border-right:none;
+	border-left:none;
+}
+
+span{
+	font-weight:1000;
+}
+
+p{
+	height:500px; 
+	text-align:left;
+	width:1200px;
+	margin:0px;
+	padding:10px 0px 0px 0px;
+}
+
+form[name=review]{
+	 width:1200px;
+	 margin:0 auto 100px auto
+}

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+ *{	box-sizing:border-box;
+        }
+          
+.roomManageFrm {	
+				border-radius:0;
+				margin: 150px auto 0px auto;
+				background-color:white;
+				width:1150px;
+				height:450px;
+				} 
+				 
+.roomFrm table{ display:inline-block;
+			border:4px solid #BDBDBD;
+			border-radius:5px;
+			width:340px;
+			height:200px;
+			margin: 0px 10px 50px 10px;
+			background-color:white;
+			border-collapse:collapse;
+			text-align:center;	 
+			}
+.roomFrm tr{height:39px;
+	margin:0;
+	}			
+.roomFrm th{	width:140px;
+		color:#2E2E2E;
+		margin:0;
+		}
+.roomFrm td{	width:200px;
+		color:#2E2E2E;
+		font-size:17px;
+		font-weight:600;
+		margin:0;
+	}					
+.roomFrm{ 	text-align:center;
+					margin:0 auto;
+					
+					width:1100px;
+				}			
+.roomChange{ background-color:#83C9E7;
+						border:1px outset #83C9E7;
+						border-radius:5px;
+						color:white;
+						font-size:16px;
+						margin: 10px 20px 50px 20px;
+						width:150px;
+						height:40px;
+						font-weight:600;
+						}
+.changeButton{	text-align:center;
+						 
+						}	
+.premium	{	display:none;
+	
+					}
+.double	{	display:none;
+	
+					}						
+.buttonColor{ 	color:#83C9E7;
+						background-color:white;
+						border:1px outset white;
+						border-radius:5px;
+						}									
+						
+select {border:1px solid #BDBDBD;
+			border-radius:5px;
+			width:100px;
+			height:25px;
+			}						
+#price { 	text-align:right;
+				border:1px solid #BDBDBD;
+				width:100px;
+				height:25px;
+			}						

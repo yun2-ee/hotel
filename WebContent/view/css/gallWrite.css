@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*---------------------------전체 ----------------------*/
+#content{
+	margin:0px auto 0 auto;
+	display:block;
+	overflow:auto; 
+}
+table{
+	border-collapse:collapse;
+	text-align:center;
+}
+#title{
+	width:1190px;
+	height:30px;
+}
+#gallWriteForm{
+	margin:100px auto; 
+	width:1200px;
+}
+
+textarea{
+	resize: none;
+	width:1190px;
+}
+
+#submit, #gallList{
+	border:1px solid gray;
+	background-color: white;
+	padding:12px 12px 12px 12px;
+	margin:5px 5px 5px 2px;
+}
+.mb{
+	text-align:left;
+}
+
+form[name=gallWriteForm]{
+	padding:100px 0px 0px 0px;
+}
+
+.bt{
+		text-align:left;
+}
+
