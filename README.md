@@ -14,4 +14,9 @@
 | Browser| Chrome 90.0.4430.212
 
 #### 페이지 흐름도 ( 사용자 & 관리자)
-#### DataBase
+
+#### DB 설계
+![db](https://user-images.githubusercontent.com/85010698/120094542-e601e280-c15b-11eb-872d-d72a8966c51b.png)
+
+
+
