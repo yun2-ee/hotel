@@ -30,6 +30,9 @@ QnA , 후기 작성 게시판 제공 <br>
 
 #### 프로젝트 내용
 메인화면 <br>
+![seadog-main](https://user-images.githubusercontent.com/85010698/120109573-f68a7b00-c1a4-11eb-8baf-4a6d8676ee52.gif)
+<br>
+예약하기 <br>
 
 #### 버전
 v 0.0.1 : 예약 및 여러 게시판,  기능 추가
