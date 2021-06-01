@@ -32,6 +32,10 @@ QnA , 후기 작성 게시판 제공 <br>
 
 
 #### 프로젝트 내용
+![화면구조](https://user-images.githubusercontent.com/85010698/120280974-598a2800-c2f3-11eb-8ee6-930281168b94.png)
+-<jsp:include page="" flush="false"/> 를 사용해서 
+-header,menu,footer 는 모든 view 파일에 들어가고, main 내용만 다릅니다. 
+
 ###### 메인화면 <br>
 <hr/>
 
