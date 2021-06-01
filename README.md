@@ -13,9 +13,9 @@ QnA , 후기 작성 게시판 제공 <br>
 2021.02.10 - 2021.03.17
 #### 개발인원 
 4명<br>
-나의 역할 <br>
-예약 기능 추가 
-후기게시판 제공 
+  **나의 역할:** <br>
+ 예약 기능 추가 <br>
+ 후기게시판 제공 <br>
 #### 개발환경
 | 종류 | 내용
 |----| ----- | 
@@ -32,9 +32,11 @@ QnA , 후기 작성 게시판 제공 <br>
 
 
 #### 프로젝트 내용
-![화면구조](https://user-images.githubusercontent.com/85010698/120280974-598a2800-c2f3-11eb-8ee6-930281168b94.png)
--<jsp:include page="" flush="false"/> 를 사용해서 
--header,menu,footer 는 모든 view 파일에 들어가고, main 내용만 다릅니다. 
+
+![화면구조](https://user-images.githubusercontent.com/85010698/120280974-598a2800-c2f3-11eb-8ee6-930281168b94.png) 
+<br>
+-<jsp:include>액션태그를 사용해서 header, menu, footer와 같이 모든 페이지에서 필요한 영역을 처리해서 모듈화했음. <br>
+-main 내용만 다릅니다. 
 
 ###### 메인화면 <br>
 <hr/>
@@ -62,10 +64,18 @@ QnA , 후기 작성 게시판 제공 <br>
 
 ###### 개인 예약 조회
 ![개인조회](https://user-images.githubusercontent.com/85010698/120295814-79751800-c302-11eb-9f9a-0d101f16c755.gif)
-
+<br/>
+-'이용완료'된 건만 후기작성 버튼이 생성되어 후기작성이 가능하다.
+  단, 작성된 후기가 있다면 작성할 수 없다.
+  
 ###### 후기 게시판 
+![후기게시판](https://user-images.githubusercontent.com/85010698/120298188-d540a080-c304-11eb-904a-2dea85bb9c6f.gif)
 
+<br/>
 -CRUD 가능한 후기 게시판
+<br/>
+
 #### 버전
+
 v 0.0.1 : 예약 및 여러 게시판,  기능 추가
 
