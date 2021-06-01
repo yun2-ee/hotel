@@ -61,8 +61,10 @@ QnA , 후기 작성 게시판 제공 <br>
 ![확인](https://user-images.githubusercontent.com/85010698/120111970-dfe92180-c1ae-11eb-818b-80723cc5a94b.png)
 
 ###### 개인 예약 조회
+![개인조회](https://user-images.githubusercontent.com/85010698/120295814-79751800-c302-11eb-9f9a-0d101f16c755.gif)
 
 ###### 후기 게시판 
+
 -CRUD 가능한 후기 게시판
 #### 버전
 v 0.0.1 : 예약 및 여러 게시판,  기능 추가
